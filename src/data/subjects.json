@@ -1,0 +1,2790 @@
+{
+    "_note": "Référentiel généré à partir du PDF CENULAPE. Matières fusionnées (ex: 'Programmation Web 1' et 'Programmation Web 2' -> une seule ligue 'Programmation Web'). A relire et compléter/corriger avant mise en production : certaines matières très proches en libellé ont pu être fusionnées ou manquer. niveau: 'I' = Semestres 1&2, 'II' = Semestres 3&4, 'I-II' = matière couvrant les deux niveaux (variantes 1/2 fusionnées).",
+    "bts": {
+        "language": "fr",
+        "domains": [
+            {
+                "id": "info-numerique",
+                "label": "Informatique & Numérique",
+                "filieres": [
+                    "Génie Logiciel",
+                    "Infographie Web Design",
+                    "Réseaux et Sécurité",
+                    "Informatique Industrielle et Automatisme"
+                ],
+                "subjects": [
+                    {
+                        "id": "outils-mathematiques",
+                        "label": "Outils Mathématiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "architecture-environnement-micro-ordinateur",
+                        "label": "Architecture et Environnement Micro-Ordinateur",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "outils-bureautiques",
+                        "label": "Outils Bureautiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "algorithme-de-base",
+                        "label": "Algorithme de Base",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-genie-logiciel",
+                        "label": "Introduction au Génie Logiciel",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "systeme-information",
+                        "label": "Système d'Information",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "analyse-mathematiques",
+                        "label": "Analyse Mathématiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "algebre-boole-circuits",
+                        "label": "Algèbre de Boole et des Circuits",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "systeme-exploitation",
+                        "label": "Système d'Exploitation",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "programmation-web",
+                        "label": "Programmation Web",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "programmation-structuree",
+                        "label": "Programmation Structurée",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-bases-donnees",
+                        "label": "Introduction aux Bases de Données",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "programmation-evenementielle",
+                        "label": "Programmation Événementielle",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "mini-projet-informatique",
+                        "label": "Mini Projet Informatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "installation-maintenance",
+                        "label": "Installation et Maintenance Matérielle et Logicielle",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "negociation-informatique",
+                        "label": "Négociation Informatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "recherche-operationnelle",
+                        "label": "Recherche Opérationnelle",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseau-teleinformatique",
+                        "label": "Réseau Informatique et Téléinformatique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "modelisation-objet",
+                        "label": "Introduction à la Modélisation Objet (UML)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "structure-donnees-avancees",
+                        "label": "Structure des Données Avancées",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "base-donnees-sql",
+                        "label": "Base des Données et SQL",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "programmation-orientee-objet",
+                        "label": "Programmation Orientée Objet",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "administration-systemes-reseaux-linux",
+                        "label": "Administration des Systèmes et Réseaux Linux",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "terminaux-mobiles",
+                        "label": "Terminaux Mobiles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-projets-informatiques",
+                        "label": "Gestion des Projets Informatiques",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "analyse-numerique",
+                        "label": "Analyse Numérique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "administration-bases-donnees",
+                        "label": "Administration des Bases de Données",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "base-donnees-ihm",
+                        "label": "Base de Données et IHM",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-iii-iv",
+                        "label": "Mathématiques (III-IV)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "traitement-image",
+                        "label": "Traitement d'Image",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "histoire-art",
+                        "label": "Histoire de l'Art et Traitement d'Image",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "sciences-physiques",
+                        "label": "Sciences Physiques",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "atelier-animation",
+                        "label": "Atelier d'Animation",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "studio-photo",
+                        "label": "Studio Photo",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "design-graphique",
+                        "label": "Design Graphique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "technique-graphique-artistique",
+                        "label": "Technique Graphique et Artistique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "informatique-generale",
+                        "label": "Informatique Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "programme-procedural",
+                        "label": "Programme Procédural",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "techniques-effets-spaciaux",
+                        "label": "Techniques des Effets Spéciaux",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "montage-maquettes",
+                        "label": "Montage des Maquettes",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "montage-video-multimedia",
+                        "label": "Montage Vidéo et Multimédia",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "integration-web",
+                        "label": "Intégration Web",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "atelier-dessin",
+                        "label": "Atelier de Dessin",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "streaming",
+                        "label": "Streaming",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "pao",
+                        "label": "PAO",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "administration-site-web",
+                        "label": "Administration d'un Site Web",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ethique-deontologie-professionnelle",
+                        "label": "Éthique et Déontologie Professionnelle",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "initiation-informatique",
+                        "label": "Initiation à l'Informatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "architecture-ordinateurs",
+                        "label": "Architecture des Ordinateurs",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "physique-generale",
+                        "label": "Physique Générale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "signaux-systemes",
+                        "label": "Signaux et Systèmes",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "techniques-transmission",
+                        "label": "Techniques de Transmission (Analogique/Numérique)",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "electronique-numerique",
+                        "label": "Électronique Numérique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "circuit-electrique",
+                        "label": "Circuit Électrique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "electronique-base-analogique",
+                        "label": "Électronique de Base / Analogique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "algebre-lineaire",
+                        "label": "Algèbre Linéaire",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "electromagnetisme",
+                        "label": "Électromagnétisme",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "algorithme-programmation",
+                        "label": "Algorithme et Programmation",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "administration-supervision-reseaux",
+                        "label": "Administration et Supervision des Réseaux",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-securite-informatique",
+                        "label": "Introduction à la Sécurité Informatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "nomadisme",
+                        "label": "Nomadisme",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "concepts-generaux-reseaux",
+                        "label": "Concepts Généraux des Réseaux",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "travaux-pratiques-reseaux",
+                        "label": "Travaux Pratiques Réseaux",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "administration-systemes-exploitation-reseaux",
+                        "label": "Administration des Systèmes d'Exploitation et Réseaux",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "authentification-service-annuaire",
+                        "label": "Authentification et Service Annuaire",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "transmission-fibre-optique",
+                        "label": "Transmission sur Fibre Optique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseaux-etendu-ip",
+                        "label": "Réseaux Étendus et Technologie IP",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseaux-locaux-sans-fil",
+                        "label": "Réseaux Locaux Sans Fil",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "telephonie",
+                        "label": "Téléphonie (RTC/RNIS)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseaux-transmission",
+                        "label": "Réseaux de Transmission",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "propagation-ondes",
+                        "label": "Propagation des Ondes",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseaux-mobiles",
+                        "label": "Réseaux Mobiles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "modulation-numerique-compression",
+                        "label": "Modulation Numérique et Compression",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "application-client-serveur",
+                        "label": "Application Client Serveur",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "securite-avancee-reseaux",
+                        "label": "Sécurité Avancée des Réseaux",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "traitement-signal",
+                        "label": "Traitement du Signal",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "veille-technologique",
+                        "label": "Veille Technologique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "domotique-microprocesseur",
+                        "label": "Domotique et Microprocesseur",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "regulation-asservissement",
+                        "label": "Régulation et Asservissement",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "automatisme-industriel",
+                        "label": "Automatisme Industriel",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "electronique-fonctions",
+                        "label": "Électronique des Fonctions",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "electronique-puissance",
+                        "label": "Électronique de Puissance",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "instrumentation-physique-capteurs",
+                        "label": "Instrumentation et Physique des Capteurs",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "peripherique-es",
+                        "label": "Périphériques E/S",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "commandes-processus-industriels",
+                        "label": "Commandes des Processus Industriels",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "reseaux-teleinformatiques",
+                        "label": "Réseaux et Téléinformatiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "base-donnees",
+                        "label": "Base de Données",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "electrotechnique",
+                "label": "Électrotechnique",
+                "filieres": [
+                    "Électrotechnique"
+                ],
+                "subjects": [
+                    {
+                        "id": "mathematique",
+                        "label": "Mathématiques",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "physique-generale-1",
+                        "label": "Physique Générale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "environnement-micro-ordi",
+                        "label": "Environnement Micro-ordinateur et Architecture",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "schema-electrique",
+                        "label": "Schéma Électrique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "circuit-numerique",
+                        "label": "Circuit Numérique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "circuit-analogique",
+                        "label": "Circuit Analogique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "electrotechnique",
+                        "label": "Électrotechnique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "techniques-mesures",
+                        "label": "Techniques de Mesures",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "traitement-signal-2",
+                        "label": "Traitement du Signal",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "automatisme-industriel-tp",
+                        "label": "Automatisme Industriel et TP",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "electronique-puissance-2",
+                        "label": "Électronique de Puissance",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "cao",
+                        "label": "CAO",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "installation-maintenance-2",
+                        "label": "Installation et Maintenance Matérielle et Logicielle",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "algorithme-programmation-2",
+                        "label": "Algorithme et Programmation",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "reseaux-teleinformatiques-2",
+                        "label": "Réseaux et Téléinformatiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "base-donnees-2",
+                        "label": "Base de Données",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "chimie-generale",
+                        "label": "Chimie Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "regulation-asservissement-2",
+                        "label": "Régulation et Asservissement",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "schema-electrique-commande",
+                        "label": "Schéma Électrique et Commande",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "technique-production-transport",
+                        "label": "Technique de Production et Transport",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "installation-electrique-appareillages",
+                        "label": "Installation Électrique et Appareillages",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "maintenance-genie-electrique",
+                        "label": "Maintenance en Génie Électrique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "communication-donnees",
+                        "label": "Communication des Données",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "tp-machine-electrique",
+                        "label": "TP Machine Électrique",
+                        "niveau": "II"
+                    }
+                ]
+            },
+            {
+                "id": "batp-geometre",
+                "label": "Bâtiment, Travaux Publics & Géomètre-Topographe",
+                "filieres": [
+                    "Bâtiment",
+                    "Travaux Publics",
+                    "Géomètre-Topographe"
+                ],
+                "subjects": [
+                    {
+                        "id": "mathematiques-btp",
+                        "label": "Mathématiques",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "physique-appliquee",
+                        "label": "Physique Appliquée",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "materiaux-construction",
+                        "label": "Matériaux de Construction / Routiers",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "organisation-chantiers",
+                        "label": "Organisation des Chantiers",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "reglementation-batiment",
+                        "label": "Réglementation Bâtiment/TPU",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "rdm",
+                        "label": "Résistance des Matériaux (RDM)",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "chimie-generale-btp",
+                        "label": "Chimie Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "architecture-btp",
+                        "label": "Architecture / Introduction à l'Architecture",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "beton-arme",
+                        "label": "Béton Armé",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "dessin-technologie",
+                        "label": "Dessin et Technologie / Dessin Technique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "geotechniques",
+                        "label": "Géotechniques",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bureau-etude",
+                        "label": "Bureau d'Étude Bâtiment",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "pgc",
+                        "label": "PGC",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "topographie",
+                        "label": "Topographie",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "fondation-soutenement",
+                        "label": "Fondation et Soutènement",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "cao-dao",
+                        "label": "CAO/DAO",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "equipement-batiment",
+                        "label": "Équipement Bâtiment",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-iii-iv-btp",
+                        "label": "Mathématiques (III-IV)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "physique-iii-btp",
+                        "label": "Physique (III)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "qhse",
+                        "label": "QHSE",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "informatique-i-btp",
+                        "label": "Informatique I",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "etude-prix",
+                        "label": "Étude des Prix",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "essais-laboratoire",
+                        "label": "Essais au Laboratoire",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "technique-amenagement-equipement",
+                        "label": "Technique d'Aménagement et Équipement",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "route",
+                        "label": "Route",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "voirie-reseaux-divers",
+                        "label": "Voirie et Réseaux Divers",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "photogrammetrie",
+                        "label": "Photogrammétrie",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "technologie-topometrique",
+                        "label": "Technologie Topométrique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "dessin-technique-geom",
+                        "label": "Dessin Technique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "gps",
+                        "label": "GPS",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "cartographie",
+                        "label": "Cartographie",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "geologie-ingenieur",
+                        "label": "Géologie de l'Ingénieur",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "calcul-topometrique",
+                        "label": "Calcul Topométrique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "regime-foncier",
+                        "label": "Régime Foncier",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "electromagnetisme-geom",
+                        "label": "Électromagnétisme (Physique)",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "economie-entreprises-geom",
+                        "label": "Économie des Entreprises",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "systeme-geographique",
+                        "label": "Système Géographique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "urbanisme",
+                        "label": "Urbanisme",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "dao",
+                        "label": "Dessin Assisté par Ordinateur (DAO)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "teledetection",
+                        "label": "Télédétection",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "geodesie",
+                        "label": "Géodésie",
+                        "niveau": "II"
+                    }
+                ]
+            },
+            {
+                "id": "hotellerie-tourisme",
+                "label": "Hôtellerie & Tourisme",
+                "filieres": [
+                    "GMH/GCU",
+                    "Tourismatique"
+                ],
+                "subjects": [
+                    {
+                        "id": "ingenierie-hoteliere",
+                        "label": "Ingénierie Hôtelière",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-restaurant",
+                        "label": "Gestion de Restaurant",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "relations-humaines",
+                        "label": "Relations Humaines",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "technologie-restaurant-service",
+                        "label": "Technologie de Restaurant / Service",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "techniques-hebergement",
+                        "label": "Techniques d'Hébergement",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "production-culinaire",
+                        "label": "Production Culinaire / Arts Culinaires",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "cuisine-comparee",
+                        "label": "Cuisine Comparée",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "technique-patisserie",
+                        "label": "Technique de Pâtisserie",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "informatique-appliquee-hot",
+                        "label": "Informatique Appliquée",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "legislation-tourisme",
+                        "label": "Législation du Tourisme",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "convention-collective",
+                        "label": "Convention Collective",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "economie-enjeux-tourisme",
+                        "label": "Économie et Enjeux du Tourisme",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mediation-culturelle",
+                        "label": "Médiation Culturelle",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "techniques-vente-yield",
+                        "label": "Techniques de Vente et Yield Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "introduction-gestion-projets-hot",
+                        "label": "Introduction à la Gestion des Projets",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "normes-procedures-hotelieres",
+                        "label": "Normes et Procédures Hôtelières",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "connaissances-techniques-bar",
+                        "label": "Connaissances et Techniques de Bar",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "connaissances-fromages-oenologie",
+                        "label": "Connaissance des Fromages et Œnologie",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "sociologie-tourisme",
+                        "label": "Sociologie du Tourisme",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "techniques-management-hoteliers",
+                        "label": "Techniques et Management Hôteliers",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "initiation-tourisme",
+                        "label": "Initiation au Tourisme",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "sciences-appliquees-restauration",
+                        "label": "Sciences Appliquées à la Restauration",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "dietetique",
+                        "label": "Diététique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mathematiques-generales-hot",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "gestion-administrative",
+                        "label": "Gestion Administrative",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mercatique",
+                        "label": "Mercatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "action-gestion-commerciale",
+                        "label": "Action et Gestion Commerciale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "chimie-hot",
+                        "label": "Chimie",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "gestion-ressources-humaines-hot",
+                        "label": "Gestion des Ressources Humaines",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "marketing-commerce-vente",
+                "label": "Marketing, Commerce & Vente",
+                "filieres": [
+                    "Marketing Commerce Vente"
+                ],
+                "subjects": [
+                    {
+                        "id": "recherches-operationnelles-mcv",
+                        "label": "Recherches Opérationnelles",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "informatique-appliquee-mcv",
+                        "label": "Informatique Appliquée",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "systeme-information-mcv",
+                        "label": "Système d'Information",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "management-equipe-commerciale",
+                        "label": "Management de l'Équipe Commerciale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "merchandising",
+                        "label": "Merchandising",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "marketing-operationnel",
+                        "label": "Marketing Opérationnel",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "marketing-relationnel",
+                        "label": "Marketing Relationnel",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "etude-marche",
+                        "label": "Étude de Marché",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "gestion-commerciale",
+                        "label": "Gestion Commerciale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "politique-commerciale",
+                        "label": "Politique Commerciale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "promotion-lieu-vente",
+                        "label": "Promotion sur le Lieu de Vente",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "prospection-commerciale",
+                        "label": "Prospection Commerciale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "travaux-synthese-mcv",
+                        "label": "Travaux de Synthèse",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-generales-mcv",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "informatique-generale-mcv",
+                        "label": "Informatique Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mathematiques-financieres-mcv",
+                        "label": "Mathématiques Financières",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "marketing-international-mcv",
+                        "label": "Marketing International",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "negociation-commerciale-mcv",
+                        "label": "Négociation Commerciale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "politique-produit",
+                        "label": "Politique de Produit",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "politique-prix",
+                        "label": "Politique de Prix",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "techniques-vente-mcv",
+                        "label": "Techniques de Vente",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "veille-concurrentielle",
+                        "label": "Veille Concurrentielle",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "force-vente",
+                        "label": "Force de Vente",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "marketing-fondamental",
+                        "label": "Marketing Fondamental",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "politique-distribution",
+                        "label": "Politique de Distribution",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "politique-communication",
+                        "label": "Politique de Communication",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "e-commerce-mcv",
+                        "label": "E-commerce",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "commerce-international-douane",
+                "label": "Commerce International & Douane",
+                "filieres": [
+                    "Commerce International",
+                    "Douane et Transit"
+                ],
+                "subjects": [
+                    {
+                        "id": "recherches-operationnelles-ci",
+                        "label": "Recherches Opérationnelles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "informatique-appliquee-ci",
+                        "label": "Informatique Appliquée",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "systeme-information-ci",
+                        "label": "Système d'Information",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-risques-change",
+                        "label": "Gestion des Risques de Change",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "assurance-transport",
+                        "label": "Assurance Transport",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "commerce-international-matieres-premieres",
+                        "label": "Commerce International des Matières Premières",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "politique-commerciale-ci",
+                        "label": "Politique Commerciale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "choix-emballage-marquage",
+                        "label": "Choix d'Emballage & Marquage des Colis",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "logistique-internationale",
+                        "label": "Logistique Internationale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "diagnostic-export",
+                        "label": "Réalisation d'un Diagnostic Export & Choix d'un Marché Étranger",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "demarches-export-import",
+                        "label": "Démarches Export-Import",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "documents-commerce-international",
+                        "label": "Documents du Commerce International",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "communication-commerciale",
+                        "label": "Communication Commerciale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "paiements-internationaux",
+                        "label": "Paiements Internationaux",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "negociation-commerciale-ci",
+                        "label": "Négociation Commerciale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "gestion-litiges-douaniers",
+                        "label": "Gestion des Litiges Douaniers",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "origine-marchandises",
+                        "label": "Origine des Marchandises",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "classement-tarifaire",
+                        "label": "Technologie et Classement Tarifaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "valeur-douane",
+                        "label": "Valeur en Douane",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "droit-transport",
+                        "label": "Droit de Transport",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "pratique-douaniere",
+                        "label": "Pratique Douanière / de Transit",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "fiscalite-douaniere",
+                        "label": "Fiscalité Douanière",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "systeme-informatique-douane",
+                        "label": "Système Informatique de la Douane",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "initiation-droit",
+                        "label": "Initiation au Droit",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-droit-douanier",
+                        "label": "Introduction au Droit Douanier",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "regimes-douaniers",
+                        "label": "Les Régimes Douaniers",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "procedure-dedouanement",
+                        "label": "Procédure de Dédouanement",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "informatique-ci",
+                        "label": "Informatique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mathematiques-generales-ci",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mathematiques-financieres-ci",
+                        "label": "Mathématiques Financières",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "marketing-international-ci",
+                        "label": "Marketing International",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "e-commerce-ci",
+                        "label": "E-commerce",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "geographie-flux",
+                        "label": "Géographie des Flux",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "transport-routier",
+                        "label": "Transport Routier",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-ferroviaire",
+                        "label": "Transport Ferroviaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-aerien",
+                        "label": "Transport Aérien",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-maritime-fluvial",
+                        "label": "Transport Maritime et Fluvial",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "douane",
+                        "label": "Douane",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "offre-commerciale-export",
+                        "label": "Offre Commerciale à l'Export",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "logistique-transport",
+                "label": "Logistique & Transport",
+                "filieres": [
+                    "Gestion Logistique et Transport"
+                ],
+                "subjects": [
+                    {
+                        "id": "informatique-appliquee-glt",
+                        "label": "Informatique Appliquée",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "systeme-information-glt",
+                        "label": "Système d'Information",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "logistique-internationale-glt",
+                        "label": "Logistique Internationale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "production-productique",
+                        "label": "Production et Productique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "initiation-optimisation",
+                        "label": "Initiation à l'Optimisation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-appro-stocks",
+                        "label": "Gestion des Approvisionnements et Stocks",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-entrepots",
+                        "label": "Gestion des Entrepôts",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "tdb-mesure-performance",
+                        "label": "TDB et Mesure de la Performance",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "systeme-logistique",
+                        "label": "Système Logistique",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "conditionnement-manutention",
+                        "label": "Conditionnement et Manutention",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "travaux-synthese-glt",
+                        "label": "Travaux de Synthèse",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "droit-transports-glt",
+                        "label": "Droit des Transports",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-generales-glt",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "informatique-generale-glt",
+                        "label": "Informatique Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "geographie-flux-transport-voyageurs",
+                        "label": "Géographie des Flux et Transport des Voyageurs",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "element-base-logistique",
+                        "label": "Éléments de Base de la Logistique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "marketing-applique-transport",
+                        "label": "Marketing Appliqué au Transport",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "negociation-achat-vente",
+                        "label": "Négociation, Achat, Vente",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-aerien-glt",
+                        "label": "Transport Aérien",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-maritime-fluvial-glt",
+                        "label": "Transport Maritime et Fluvial",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-ferroviaire-glt",
+                        "label": "Transport Ferroviaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "transport-routier-glt",
+                        "label": "Transport Routier",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "douane-glt",
+                        "label": "Douane",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "e-commerce-glt",
+                        "label": "E-commerce",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "ressources-humaines",
+                "label": "Ressources Humaines",
+                "filieres": [
+                    "Gestion des Ressources Humaines"
+                ],
+                "subjects": [
+                    {
+                        "id": "recherches-operationnelles-rh",
+                        "label": "Recherches Opérationnelles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "informatique-appliquee-rh",
+                        "label": "Informatique Appliquée",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "systeme-information-rh",
+                        "label": "Système d'Information RH",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "politique-generale-strategie",
+                        "label": "Politique Générale et Stratégie",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "domaine-gestion-sociale",
+                        "label": "Domaine de la Gestion Sociale",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "pilotage-social",
+                        "label": "Pilotage Social",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gpec",
+                        "label": "GPEC",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "relation-professionnelle",
+                        "label": "Relation Professionnelle Interne et Externe",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "gestion-administrative-personnel",
+                        "label": "Gestion Administrative du Personnel",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "cas-synthese",
+                        "label": "Cas de Synthèse",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "communication-interne-externe",
+                        "label": "Communication Interne et Externe",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-paie",
+                        "label": "Gestion de la Paie",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-generales-rh",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "informatique-generale-rh",
+                        "label": "Informatique Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "mathematiques-financieres-rh",
+                        "label": "Mathématiques Financières",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "analyse-financiere-rh",
+                        "label": "Analyse Financière",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "gestion-juridique-fiscale",
+                        "label": "Gestion Juridique et Fiscale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "psychologie-dynamique-relations-sociales",
+                        "label": "Psychologie et Dynamique des Relations Sociales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "relations-professionnelles-int-ext",
+                        "label": "Relations Professionnelles Internes et Externes",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "information-rh",
+                        "label": "Information",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "initiation-grh",
+                        "label": "Initiation à la GRH",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "la-motivation",
+                        "label": "La Motivation",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "methodologie-redaction-rapport-stage",
+                        "label": "Méthodologie de la Rédaction d'un Rapport de Stage",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "comptabilite-gestion",
+                "label": "Comptabilité & Gestion",
+                "filieres": [
+                    "Comptabilité et Gestion des Entreprises"
+                ],
+                "subjects": [
+                    {
+                        "id": "recherches-operationnelles-cge",
+                        "label": "Recherches Opérationnelles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-financieres-cge",
+                        "label": "Mathématiques Financières",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "informatique-appliquee-cge",
+                        "label": "Informatique Appliquée",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "comptabilite-societes",
+                        "label": "Comptabilité des Sociétés",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "analyse-financiere-cge",
+                        "label": "Analyse Financière",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "travaux-synthese-cge",
+                        "label": "Travaux de Synthèse",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "gestion-previsionnelle",
+                        "label": "Gestion Prévisionnelle",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-cge",
+                        "label": "Mathématiques",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "informatique-generale-cge",
+                        "label": "Informatique Générale",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "operations-courantes",
+                        "label": "Opérations Courantes",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "operations-specifiques-fin-exercice",
+                        "label": "Opérations Spécifiques et Travaux de Fin d'Exercice",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "couts-complets",
+                        "label": "Coûts Complets",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "couts-partiels-seuil-rentabilite",
+                        "label": "Coûts Partiels et Seuil de Rentabilité",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-analyse-financiere",
+                        "label": "Introduction à l'Analyse Financière",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "comptabilite-assistee-ordinateur",
+                        "label": "Comptabilité Assistée par Ordinateur",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "methodologie-redaction-rapport-stage-cge",
+                        "label": "Méthodologie de la Rédaction d'un Rapport de Stage",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "banque-finance",
+                "label": "Banque & Finance",
+                "filieres": [
+                    "Banque et Finance"
+                ],
+                "subjects": [
+                    {
+                        "id": "recherches-operationnelles-baf",
+                        "label": "Recherches Opérationnelles",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-financieres-baf",
+                        "label": "Mathématiques Financières",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "informatique-appliquee-baf",
+                        "label": "Informatique Appliquée",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "analyse-financiere-baf",
+                        "label": "Analyse Financière",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "technique-bancaire-marche-entreprises",
+                        "label": "Technique Bancaire et Marché des Entreprises/Particuliers",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "operations-bancaires-transfrontalieres",
+                        "label": "Opérations Bancaires Transfrontalières",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "systeme-financier-decentralise",
+                        "label": "Système Financier Décentralisé",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "travaux-synthese-baf",
+                        "label": "Travaux de Synthèse",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "marche-capitaux",
+                        "label": "Marché des Capitaux",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "economie-monetaire",
+                        "label": "Économie Monétaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "economie-bancaire",
+                        "label": "Économie Bancaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "comptabilite-operations-bancaires",
+                        "label": "Comptabilité des Opérations Bancaires",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ethique-deontologie-bancaire",
+                        "label": "Éthique et Déontologie Bancaire",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "mathematiques-generales-baf",
+                        "label": "Mathématiques Générales",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "techniques-bancaires-marche-particuliers",
+                        "label": "Techniques Bancaires et Marchés des Particuliers",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "finance-islamique",
+                        "label": "Finance Islamique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "fiscalite-operations-banque",
+                        "label": "Fiscalité des Opérations de Banque",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "marketing-bancaire",
+                        "label": "Marketing Bancaire",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "droit-reglementation-bancaire",
+                        "label": "Droit et Réglementation Bancaire",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "bts-transversal-langues",
+                "label": "Langues (Anglais / Français / Autres)",
+                "filieres": [
+                    "Toutes filières"
+                ],
+                "subjects": [
+                    {
+                        "id": "bts-langues-allemand-espagnol-professionnel",
+                        "label": "Allemand / Espagnol Professionnel",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-langues-allemand-espagnol-ci",
+                        "label": "Allemand/Espagnol",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-langues-anglais",
+                        "label": "Anglais",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-langues-expression-anglaise-mcv",
+                        "label": "Expression Anglaise",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-langues-expression-francaise-hot",
+                        "label": "Expression Française",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-langues-francais",
+                        "label": "Français",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-langues-langue-allemand-espagnol",
+                        "label": "Langue (Allemand/Espagnol)",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-langues-techniques-expression-francaise",
+                        "label": "Techniques d'Expression Française",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "bts-transversal-droit",
+                "label": "Droit",
+                "filieres": [
+                    "Toutes filières"
+                ],
+                "subjects": [
+                    {
+                        "id": "bts-droit-aspect-juridique-commerce-international",
+                        "label": "Aspect Juridique du Commerce International",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-droit-droit-civil",
+                        "label": "Droit Civil",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-droit-droit-commercial",
+                        "label": "Droit Commercial",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-droit-droit-societes",
+                        "label": "Droit des Sociétés",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-droit-droit-societes-commerciales-glt",
+                        "label": "Droit des Sociétés Commerciales",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "bts-droit-droit-travail",
+                        "label": "Droit du Travail",
+                        "niveau": "II"
+                    }
+                ]
+            },
+            {
+                "id": "bts-transversal-economie-entrepreneuriat",
+                "label": "Économie & Entrepreneuriat",
+                "filieres": [
+                    "Toutes filières"
+                ],
+                "subjects": [
+                    {
+                        "id": "bts-economie-entrepreneuriat-creation-entreprise",
+                        "label": "Création d'Entreprise",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "bts-economie-entrepreneuriat-economie-generale",
+                        "label": "Économie Générale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-economie-entrepreneuriat-economie-organisation-entreprise",
+                        "label": "Économie et Organisation de l'Entreprise",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-economie-entrepreneuriat-economie-organisation-entreprises",
+                        "label": "Économie et Organisation des Entreprises",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-economie-entrepreneuriat-eoe-cge",
+                        "label": "Économie et Organisation des Entreprises (EOE)",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "bts-transversal-compta-stats-fiscalite",
+                "label": "Comptabilité, Statistiques & Fiscalité",
+                "filieres": [
+                    "Toutes filières"
+                ],
+                "subjects": [
+                    {
+                        "id": "bts-compta-stats-fiscalite-comptabilite-analytique",
+                        "label": "Comptabilité Analytique",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-comptabilite-analytique-ci",
+                        "label": "Comptabilité Analytique et Gestion Budgétaire",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-comptabilite-generale",
+                        "label": "Comptabilité Générale",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-fiscalite-hot",
+                        "label": "Fiscalité",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-probabilite-mcv",
+                        "label": "Probabilité",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-statistique-hot",
+                        "label": "Statistique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-compta-stats-fiscalite-statistiques-mcv",
+                        "label": "Statistiques",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "bts-transversal-civique-ethique",
+                "label": "Éducation Civique et Éthique",
+                "filieres": [
+                    "Toutes filières"
+                ],
+                "subjects": [
+                    {
+                        "id": "bts-civique-ethique-education-civique-btp",
+                        "label": "Éducation Civique",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "bts-civique-ethique-education-civique-ethique",
+                        "label": "Éducation Civique et Éthique",
+                        "niveau": "I-II"
+                    }
+                ]
+            }
+        ]
+    },
+    "hnd": {
+        "language": "en",
+        "domains": [
+            {
+                "id": "software-engineering",
+                "label": "Software Engineering",
+                "filieres": [
+                    "Software Engineering"
+                ],
+                "subjects": [
+                    {
+                        "id": "engineering-mathematics",
+                        "label": "Engineering Mathematics",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "digital-literacy",
+                        "label": "Digital Literacy",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "digital-electronics",
+                        "label": "Digital Electronics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "fundamentals-algorithms",
+                        "label": "Fundamentals of Algorithms",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-information-systems",
+                        "label": "Introduction to Information Systems",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-software-engineering",
+                        "label": "Introduction to Software Engineering",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "computer-graphic",
+                        "label": "Computer Graphic",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "operating-system",
+                        "label": "Operating System",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "web-programming",
+                        "label": "Web Programming",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "computer-architecture",
+                        "label": "Computer Architecture",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-database",
+                        "label": "Introduction to Database",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "information-system-merise",
+                        "label": "Information System (MERISE)",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "structure-programming",
+                        "label": "Structure Programming",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "factual-programming",
+                        "label": "Factual Programming",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "installation-maintenance-hnd",
+                        "label": "Installation and Maintenance of Software & Hardware",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "legal-regulation",
+                        "label": "Legal Regulation",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "economics-enterprise-organisation",
+                        "label": "Economics and Enterprise Organisation",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "computer-networks",
+                        "label": "Computer Networks",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "introduction-object-modelling-uml",
+                        "label": "Introduction to Object Modelling (UML)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "database-sql",
+                        "label": "Database and SQL",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "advanced-data-structure",
+                        "label": "Advanced Data Structure",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "object-oriented-programming",
+                        "label": "Object Oriented Programming (Java/C++)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "programming-mobile-terminals",
+                        "label": "Programming of Mobile Terminals",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "application-security",
+                        "label": "Application Security",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "management-computer-project",
+                        "label": "Management of Computer Project",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "database-hci",
+                        "label": "Database and HCI",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "project-management",
+                        "label": "Project Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "database-administration",
+                        "label": "Database Administration",
+                        "niveau": "II"
+                    }
+                ]
+            },
+            {
+                "id": "accountancy",
+                "label": "Accountancy",
+                "filieres": [
+                    "Accountancy"
+                ],
+                "subjects": [
+                    {
+                        "id": "operational-research",
+                        "label": "Operational Research",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "introduction-company-tax",
+                        "label": "Introduction to Company Tax",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "company-accounting",
+                        "label": "Company Accounting",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "forecasting-budgetary-management",
+                        "label": "Forecasting and Budgetary Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "standard-costing-variance-analysis",
+                        "label": "Standard Costing and Variance Analysis",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "daily-operation",
+                        "label": "Daily Operation",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "financial-analysis",
+                        "label": "Financial Analysis",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "computerize-accounting",
+                        "label": "Computerized Accounting",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "tax-declaration-filling",
+                        "label": "Tax Declaration and Filling of STR",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "taxation-activities",
+                        "label": "Taxation of Activities",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "end-year-works-accounting",
+                        "label": "End of Year Works in Accounting",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "vat-pit",
+                        "label": "VAT & PIT",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "general-mathematics",
+                        "label": "General Mathematics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "french-expression",
+                        "label": "French Expression",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "english-expression",
+                        "label": "English Expression",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "general-computing",
+                        "label": "General Computing",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "financial-mathematics",
+                        "label": "Financial Mathematics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "specific-operation",
+                        "label": "Specific Operation / End of Year Works",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-cost-accounting",
+                        "label": "Introduction to Cost Accounting",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-taxation",
+                        "label": "Introduction to Taxation",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "marginal-costing-bep",
+                        "label": "Marginal Costing and BEP",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "absorption-costing",
+                        "label": "Absorption Costing",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "banking-finance",
+                "label": "Banking and Finance",
+                "filieres": [
+                    "Banking and Finance"
+                ],
+                "subjects": [
+                    {
+                        "id": "strategic-marketing-banking",
+                        "label": "Strategic Marketing Management in Banking",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "accounting-banking-operation",
+                        "label": "Accounting for Banking Operation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "banking-ethics-deontology",
+                        "label": "Banking Ethics and Deontology",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "decentralised-financial-system",
+                        "label": "Decentralised Financial System",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "financial-markets",
+                        "label": "Financial Markets",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "monetary-economics",
+                        "label": "Monetary Economics",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "economics-banking",
+                        "label": "Economics of Banking",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "banking-technic",
+                        "label": "Banking Technics (Individual/Corporate Market)",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "cross-border-banking",
+                        "label": "Cross Border Banking",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "banking-environment",
+                        "label": "Banking Environment",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "loan-portfolio-management",
+                        "label": "Loan Portfolio Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "applied-computing",
+                        "label": "Applied Computing",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "financial-statement-analysis",
+                        "label": "Financial Statement/Analysis",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "banking-regulation",
+                        "label": "Banking Regulation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "financial-maths",
+                        "label": "Financial Maths",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "work-synthesis",
+                        "label": "Work of Synthesis",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "general-mathematics-bf",
+                        "label": "General Mathematics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "general-computing-bf",
+                        "label": "General Computing",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "islamic-finance",
+                        "label": "Islamic Finance",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "french-expression-bf",
+                        "label": "French Expression",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-financial-analysis",
+                        "label": "Introduction to Financial Analysis",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "hrm",
+                "label": "Human Resource Management",
+                "filieres": [
+                    "Human Resource Management"
+                ],
+                "subjects": [
+                    {
+                        "id": "communication-tools-correspondance",
+                        "label": "Communication Tools / Professional Correspondance",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "computer-studies",
+                        "label": "Computer Studies",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "social-pilotage",
+                        "label": "Social Pilotage / Domain of Social Management",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "information-system",
+                        "label": "Information System",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "internal-external-professional-relations",
+                        "label": "Internal and External Professional Relations",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "organisation-administrative-methods",
+                        "label": "Organisation of Administrative Methods",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "policy-strategy",
+                        "label": "Policy and Strategy",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "case-study",
+                        "label": "Case Study",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "general-maths-hrm",
+                        "label": "General Maths",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "general-computing-hrm",
+                        "label": "General Computing",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "financial-mathematics-hrm",
+                        "label": "Financial Mathematics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "legal-management-tax",
+                        "label": "Legal Management and Tax",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "tax-management",
+                        "label": "Tax Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "psychology-social-relations",
+                        "label": "Psychology and Social Relations Dynamics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hr-information-system",
+                        "label": "HR Information System",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "information",
+                        "label": "Information",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "initiation-hrm",
+                        "label": "Initiation to HRM",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "motivation",
+                        "label": "The Motivation",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "logistics-transport",
+                "label": "Logistic and Transport Management",
+                "filieres": [
+                    "Logistic and Transport Management"
+                ],
+                "subjects": [
+                    {
+                        "id": "general-economic-micro",
+                        "label": "General Economic (Micro)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "applied-computer",
+                        "label": "Applied Computer",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "law-labour-company",
+                        "label": "Law (Labour-Company)",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "project-management-lt",
+                        "label": "Project Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ship-representation",
+                        "label": "Ship Representation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "land-inland-water",
+                        "label": "Land and Inland Water",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "air-transport",
+                        "label": "Air Transport",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "port-mgt-operation",
+                        "label": "Port Management Operation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "carriage-goods-sea",
+                        "label": "Carriage of Goods by Sea / Maritime Transport",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "environmental-management",
+                        "label": "Environmental Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ship-finance",
+                        "label": "Ship Finance",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ship-chartering",
+                        "label": "Ship Chartering",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "ict-for-logistic",
+                        "label": "ICT for Logistic",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "strategic-management",
+                        "label": "Strategic Management",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "introduction-customs-operation",
+                        "label": "Introduction to Customs Operation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "introduction-oil-gas",
+                        "label": "Introduction to Oil and Gas",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "safety-security",
+                        "label": "Safety and Security",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "multimodal-transport",
+                        "label": "Multimodal Transport",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "maritime-administration",
+                        "label": "Maritime Administration",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "international-transport-management",
+                        "label": "International Transport Management",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "general-maths-lt",
+                        "label": "General Maths",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "general-computing-lt",
+                        "label": "General Computing",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "introduction-logistic-management",
+                        "label": "Introduction to Logistic Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "shipping-international-trade",
+                        "label": "Shipping and International Trade",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "maritime-transport",
+                        "label": "Maritime Transport",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "cargo-handling",
+                        "label": "Cargo Handling",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "carriage-law",
+                        "label": "Carriage Law",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "principles-management",
+                        "label": "Principles of Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "international-freight-forwarding",
+                        "label": "International Freight Forwarding",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "safe-transport-dangerous",
+                        "label": "Safe Transport of Dangerous Goods",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "warehousing-management",
+                        "label": "Warehousing Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "inventory-management",
+                        "label": "Inventory Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "total-quality-management",
+                        "label": "Total Quality Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "procurement-management",
+                        "label": "Procurement Management",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "maritime-insurance",
+                        "label": "Maritime Insurance",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "cargo-insurance",
+                        "label": "Cargo Insurance",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "hnd-transversal-langues",
+                "label": "Languages (English / French / Other)",
+                "filieres": [
+                    "All programs"
+                ],
+                "subjects": [
+                    {
+                        "id": "hnd-langues-english",
+                        "label": "English",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-langues-english-language",
+                        "label": "English Language",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-langues-french",
+                        "label": "French",
+                        "niveau": "I-II"
+                    }
+                ]
+            },
+            {
+                "id": "hnd-transversal-droit",
+                "label": "Law",
+                "filieres": [
+                    "All programs"
+                ],
+                "subjects": [
+                    {
+                        "id": "hnd-droit-civil-common-law",
+                        "label": "Civil and Common Law",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-droit-company-commercial-labour-law",
+                        "label": "Company/Commercial/Labour Law",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-droit-international-commercial-law",
+                        "label": "International Commercial Law",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-droit-labour-law",
+                        "label": "Labour Law",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-droit-labour-commercial-law",
+                        "label": "Labour/Commercial Law",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-droit-law",
+                        "label": "Law",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-droit-maritime-law",
+                        "label": "Maritime Law",
+                        "niveau": "II"
+                    }
+                ]
+            },
+            {
+                "id": "hnd-transversal-economie-entrepreneuriat",
+                "label": "Economics & Entrepreneurship",
+                "filieres": [
+                    "All programs"
+                ],
+                "subjects": [
+                    {
+                        "id": "hnd-economie-entrepreneuriat-economy-organisation-entreprise-lt",
+                        "label": "Economy and Organisation of Entreprise",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-economy-organization-enterprises-hrm",
+                        "label": "Economy and Organization of Enterprises",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-economy-organization-entreprises-bf",
+                        "label": "Economy and Organization of Entreprises",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-eoe",
+                        "label": "Economy and Organization of Entreprises (EOE)",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-enterprise-creation",
+                        "label": "Enterprise Creation",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-entrepreneurship",
+                        "label": "Entrepreneurship",
+                        "niveau": "II"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-general-economics",
+                        "label": "General Economics",
+                        "niveau": "I-II"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-general-economy-macro",
+                        "label": "General Economy (Macro)",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-economie-entrepreneuriat-principles-economics",
+                        "label": "Principles of Economics",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "hnd-transversal-compta-stats-fiscalite",
+                "label": "Accounting, Statistics & Taxation",
+                "filieres": [
+                    "All programs"
+                ],
+                "subjects": [
+                    {
+                        "id": "hnd-compta-stats-fiscalite-cost-accounting-budget",
+                        "label": "Cost Accounting and Management of Budget",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-general-accounting",
+                        "label": "General Accounting",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-general-ledger",
+                        "label": "General Ledger",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-probabilities",
+                        "label": "Probabilities",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-probability-bf",
+                        "label": "Probability",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-statistics",
+                        "label": "Statistics",
+                        "niveau": "I"
+                    },
+                    {
+                        "id": "hnd-compta-stats-fiscalite-taxation",
+                        "label": "Taxation",
+                        "niveau": "I"
+                    }
+                ]
+            },
+            {
+                "id": "hnd-transversal-civique-ethique",
+                "label": "Civics and Ethics",
+                "filieres": [
+                    "All programs"
+                ],
+                "subjects": [
+                    {
+                        "id": "hnd-civique-ethique-civics-ethics",
+                        "label": "Civics and Ethics",
+                        "niveau": "I-II"
+                    }
+                ]
+            }
+        ]
+    }
+}

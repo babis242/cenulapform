@@ -1,0 +1,80 @@
+export const dict = {
+    fr: {
+        headerTitle: 'CENULAPE',
+        headerSubtitle: 'Fiche de vœux',
+        cycleEyebrowTpl: 'Étape {current} sur {total}',
+        cycleTitle: 'Pour quel cycle souhaitez-vous enseigner ?',
+        cycleSubtitle: 'Ce choix détermine la langue du formulaire.',
+        cycleBTS: 'BTS',
+        cycleHND: 'HND',
+        cycleBoth: 'BTS et HND',
+        identityTitle: 'Vos informations',
+        identitySubtitle: 'Renseignez votre nom complet et un moyen de vous contacter.',
+        nameLabel: 'Nom complet',
+        namePlaceholder: 'Ex : NGUEMGNE FOTSO Angèle',
+        contactLabel: 'Contact (téléphone WhatsApp)',
+        contactPlaceholder: 'Ex : 6 92 98 02 41',
+        domainsTitle: 'Vos domaines de spécialité',
+        domainsSubtitle: 'Sélectionnez un ou plusieurs domaines.',
+        subjectsSubtitle: "Cochez les matières que vous vous sentez capable d'enseigner.",
+        availabilityTitle: 'Vos disponibilités',
+        availabilitySubtitle: 'Cochez les créneaux où vous êtes disponible.',
+        days: { L: 'Lun', M1: 'Mar', M2: 'Mer', J: 'Jeu', V: 'Ven', S: 'Sam' },
+        slots: { '08h-12h': '08h–12h', '13h-17h': '13h–17h' },
+        next: 'Suivant',
+        back: 'Retour',
+        submit: 'Envoyer ma fiche',
+        submitting: 'Envoi en cours…',
+        errRequired: 'Ce champ est obligatoire.',
+        errPickOneDomain: 'Sélectionnez au moins un domaine.',
+        errPickOneSubject: 'Sélectionnez au moins une matière.',
+        confirmTitle: 'Fiche envoyée avec succès',
+        confirmBody: "Votre PDF a été généré. WhatsApp va s'ouvrir pour l'envoyer.",
+        niveauI: 'Niveau I',
+        niveauII: 'Niveau II',
+        niveauBoth: 'Niveau I et II'
+    },
+    en: {
+        headerTitle: 'CENULAPE',
+        headerSubtitle: 'Preferences form',
+        cycleEyebrowTpl: 'Step {current} of {total}',
+        cycleTitle: 'Which cycle would you like to teach in?',
+        cycleSubtitle: "This choice sets the form's language.",
+        cycleBTS: 'BTS',
+        cycleHND: 'HND',
+        cycleBoth: 'BTS and HND',
+        identityTitle: 'Your information',
+        identitySubtitle: 'Provide your full name and a way to contact you.',
+        nameLabel: 'Full name',
+        namePlaceholder: 'e.g. NGUEMGNE FOTSO Angèle',
+        contactLabel: 'Contact (WhatsApp phone number)',
+        contactPlaceholder: 'e.g. 6 92 98 02 41',
+        domainsTitle: 'Your areas of specialty',
+        domainsSubtitle: 'Select one or more domains.',
+        subjectsSubtitle: 'Tick the subjects you feel able to teach.',
+        availabilityTitle: 'Your availability',
+        availabilitySubtitle: 'Tick the time slots when you are available.',
+        days: { L: 'Mon', M1: 'Tue', M2: 'Wed', J: 'Thu', V: 'Fri', S: 'Sat' },
+        slots: { '08h-12h': '08:00–12:00', '13h-17h': '13:00–17:00' },
+        next: 'Next',
+        back: 'Back',
+        submit: 'Submit my form',
+        submitting: 'Submitting…',
+        errRequired: 'This field is required.',
+        errPickOneDomain: 'Select at least one domain.',
+        errPickOneSubject: 'Select at least one subject.',
+        confirmTitle: 'Form submitted successfully',
+        confirmBody: 'Your PDF has been generated. WhatsApp will open to send it.',
+        niveauI: 'Level I',
+        niveauII: 'Level II',
+        niveauBoth: 'Level I and II'
+    }
+}
+
+export function t(lang, key, vars = {}) {
+    let str = dict[lang]?.[key] ?? dict.fr[key] ?? key
+    Object.entries(vars).forEach(([k, v]) => {
+        str = str.replace(`{${k}}`, v)
+    })
+    return str
+}
