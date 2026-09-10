@@ -24,14 +24,28 @@ export default function SubjectsReportScreen() {
 
     useEffect(function () {
         setLoading(true)
-        supabase
-            .from('v_subject_teachers')
-            .select('*')
-            .then(function (res) {
-                if (res.error) setError(res.error.message)
-                else setRows(res.data || [])
-                setLoading(false)
-            })
+        async function loadAll() {
+            let allRows = []
+            let from = 0
+            const pageSize = 1000
+            while (true) {
+                const res = await supabase
+                    .from('v_subject_teachers')
+                    .select('*')
+                    .range(from, from + pageSize - 1)
+                if (res.error) {
+                    setError(res.error.message)
+                    break
+                }
+                const batch = res.data || []
+                allRows = allRows.concat(batch)
+                if (batch.length < pageSize) break
+                from += pageSize
+            }
+            setRows(allRows)
+            setLoading(false)
+        }
+        loadAll()
     }, [])
 
     var teachersIndex = {}
@@ -98,7 +112,6 @@ export default function SubjectsReportScreen() {
     if (loading) return <p className="text-neutral-500">Chargement...</p>
     if (error) return <p className="text-red-600">{error}</p>
 
-    // Vue 1 : liste des domaines à choisir
     if (!selectedDomain) {
         return (
             <div>
@@ -137,7 +150,6 @@ export default function SubjectsReportScreen() {
         )
     }
 
-    // Vue 2 : détail du domaine sélectionné, avec recherche
     return (
         <div>
             <button
