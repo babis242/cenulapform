@@ -21,6 +21,7 @@ export default function SubjectsReportScreen() {
     var [generating, setGenerating] = useState(false)
     var [selectedDomainId, setSelectedDomainId] = useState(null)
     var [searchText, setSearchText] = useState('')
+    var [globalSearchText, setGlobalSearchText] = useState('')
 
     useEffect(function () {
         setLoading(true)
@@ -69,6 +70,20 @@ export default function SubjectsReportScreen() {
         })
     }
 
+    // Recherche generale : parcourt tous les domaines d'un coup
+    var globalQuery = globalSearchText.trim().toLowerCase()
+    var globalResults = []
+    if (globalQuery) {
+        catalog.forEach(function (d) {
+            var matchingSubjects = subjectsWithTeachers(d).filter(function (s) {
+                return s.subjectLabel.toLowerCase().indexOf(globalQuery) !== -1
+            })
+            if (matchingSubjects.length > 0) {
+                globalResults.push({ domainLabel: d.label, domainId: d.id, subjects: matchingSubjects })
+            }
+        })
+    }
+
     var query = searchText.trim().toLowerCase()
     var displayedSubjects = selectedDomain
         ? subjectsWithTeachers(selectedDomain).filter(function (s) {
@@ -109,6 +124,23 @@ export default function SubjectsReportScreen() {
         })
     }
 
+    function handleDownloadGlobalSearchPdf() {
+        setGenerating(true)
+        var groupedData = globalResults.map(function (g) {
+            return { domainLabel: g.domainLabel, subjects: g.subjects }
+        })
+        generateSubjectReportPdf(groupedData).then(function (bytes) {
+            var blob = new Blob([bytes], { type: 'application/pdf' })
+            var url = URL.createObjectURL(blob)
+            var a = document.createElement('a')
+            a.href = url
+            a.download = 'cenulape-recherche.pdf'
+            a.click()
+            URL.revokeObjectURL(url)
+            setGenerating(false)
+        })
+    }
+
     if (loading) return <p className="text-neutral-500">Chargement...</p>
     if (error) return <p className="text-red-600">{error}</p>
 
@@ -125,27 +157,103 @@ export default function SubjectsReportScreen() {
                         {generating ? 'Generation...' : 'Telecharger le rapport complet (tous domaines)'}
                     </button>
                 </div>
-                <p className="text-neutral-500 text-sm mb-4">Choisissez un domaine pour voir ses matieres et enseignants.</p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                    {catalog.map(function (d) {
-                        var subjectCount = d.subjects.length
-                        var withTeacherCount = d.subjects.filter(function (s) {
-                            return (teachersIndex[d.id + '__' + s.id] || []).length > 0
-                        }).length
-                        return (
-                            <button
-                                key={d.id}
-                                onClick={function () { setSelectedDomainId(d.id); setSearchText('') }}
-                                className="text-left border border-neutral-200 hover:border-blue-600 rounded-2xl px-5 py-4 transition-colors"
-                            >
-                                <div className="font-bold">{d.label}</div>
-                                <div className="text-neutral-500 text-xs mt-1">
-                                    {subjectCount} UE au total - {withTeacherCount} avec au moins un enseignant
-                                </div>
-                            </button>
-                        )
-                    })}
+
+                <div className="mb-6 max-w-sm">
+                    <label className="block font-bold text-sm mb-2">Recherche generale (tous domaines)</label>
+                    <input
+                        type="text"
+                        value={globalSearchText}
+                        onChange={function (e) { setGlobalSearchText(e.target.value) }}
+                        placeholder="Ex: Anatomie, Droit, Programmation..."
+                        className="w-full border border-neutral-200 rounded-xl px-4 py-3 text-base focus:outline-none focus:border-blue-600"
+                    />
                 </div>
+
+                {globalQuery ? (
+                    <div>
+                        <div className="flex items-center justify-between mb-4">
+                            <p className="text-neutral-500 text-sm">
+                                {globalResults.reduce(function (acc, g) { return acc + g.subjects.length }, 0)} UE trouvee(s) dans {globalResults.length} domaine(s)
+                            </p>
+                            {globalResults.length > 0 && (
+                                <button
+                                    onClick={handleDownloadGlobalSearchPdf}
+                                    disabled={generating}
+                                    className="text-blue-600 hover:text-blue-700 font-bold text-sm disabled:opacity-50"
+                                >
+                                    {generating ? 'Generation...' : 'Telecharger ces resultats en PDF'}
+                                </button>
+                            )}
+                        </div>
+
+                        {globalResults.length === 0 && (
+                            <p className="text-neutral-500">Aucune UE ne correspond a "{globalSearchText}".</p>
+                        )}
+
+                        {globalResults.map(function (g) {
+                            return (
+                                <div key={g.domainId} className="mb-6">
+                                    <button
+                                        onClick={function () { setSelectedDomainId(g.domainId); setSearchText(globalSearchText) }}
+                                        className="text-left font-bold text-neutral-900 hover:text-blue-600 mb-2 transition-colors"
+                                    >
+                                        {g.domainLabel} →
+                                    </button>
+                                    <div className="overflow-x-auto border border-neutral-200 rounded-2xl">
+                                        <table className="w-full text-sm">
+                                            <tbody>
+                                                {g.subjects.map(function (subject) {
+                                                    return (
+                                                        <tr key={subject.subjectLabel} className="border-t border-neutral-100 align-top first:border-t-0">
+                                                            <td className="px-4 py-3 font-bold w-1/3">{subject.subjectLabel}</td>
+                                                            <td className="px-4 py-3">
+                                                                {subject.teachers.length === 0 && (
+                                                                    <span className="text-neutral-300 italic">Aucun enseignant</span>
+                                                                )}
+                                                                {subject.teachers.map(function (t, i) {
+                                                                    return (
+                                                                        <div key={i} className="mb-1">
+                                                                            <span className="font-bold">{t.fullName}</span>
+                                                                            <span className="text-neutral-500"> - {t.availabilityText}</span>
+                                                                        </div>
+                                                                    )
+                                                                })}
+                                                            </td>
+                                                        </tr>
+                                                    )
+                                                })}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            )
+                        })}
+                    </div>
+                ) : (
+                    <>
+                        <p className="text-neutral-500 text-sm mb-4">Ou choisissez un domaine pour voir ses matieres et enseignants.</p>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            {catalog.map(function (d) {
+                                var subjectCount = d.subjects.length
+                                var withTeacherCount = d.subjects.filter(function (s) {
+                                    return (teachersIndex[d.id + '__' + s.id] || []).length > 0
+                                }).length
+                                return (
+                                    <button
+                                        key={d.id}
+                                        onClick={function () { setSelectedDomainId(d.id); setSearchText('') }}
+                                        className="text-left border border-neutral-200 hover:border-blue-600 rounded-2xl px-5 py-4 transition-colors"
+                                    >
+                                        <div className="font-bold">{d.label}</div>
+                                        <div className="text-neutral-500 text-xs mt-1">
+                                            {subjectCount} UE au total - {withTeacherCount} avec au moins un enseignant
+                                        </div>
+                                    </button>
+                                )
+                            })}
+                        </div>
+                    </>
+                )}
             </div>
         )
     }
@@ -153,7 +261,7 @@ export default function SubjectsReportScreen() {
     return (
         <div>
             <button
-                onClick={function () { setSelectedDomainId(null); setSearchText('') }}
+                onClick={function () { setSelectedDomainId(null); setSearchText(''); setGlobalSearchText('') }}
                 className="text-neutral-500 hover:text-neutral-900 font-bold text-sm mb-4"
             >
                 ← Retour aux domaines
