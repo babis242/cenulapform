@@ -7,6 +7,7 @@ export default function SubjectsReportScreen() {
     var [loading, setLoading] = useState(true)
     var [error, setError] = useState('')
     var [generating, setGenerating] = useState(false)
+    var [searchText, setSearchText] = useState('')
 
     useEffect(function () {
         setLoading(true)
@@ -40,9 +41,29 @@ export default function SubjectsReportScreen() {
         })
     })
 
+    // Filtrage par UE (nom de matiere), insensible a la casse
+    var displayedGroups = grouped
+    var query = searchText.trim().toLowerCase()
+    if (query) {
+        displayedGroups = grouped
+            .map(function (domain) {
+                var filteredSubjects = domain.subjects.filter(function (s) {
+                    return s.subjectLabel.toLowerCase().indexOf(query) !== -1
+                })
+                return { domainLabel: domain.domainLabel, subjects: filteredSubjects }
+            })
+            .filter(function (domain) {
+                return domain.subjects.length > 0
+            })
+    }
+
+    var totalMatchingSubjects = displayedGroups.reduce(function (acc, d) {
+        return acc + d.subjects.length
+    }, 0)
+
     function handleDownloadPdf() {
         setGenerating(true)
-        generateSubjectReportPdf(grouped).then(function (bytes) {
+        generateSubjectReportPdf(displayedGroups).then(function (bytes) {
             var blob = new Blob([bytes], { type: 'application/pdf' })
             var url = URL.createObjectURL(blob)
             var a = document.createElement('a')
@@ -56,21 +77,40 @@ export default function SubjectsReportScreen() {
 
     return (
         <div>
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
                 <h2 className="text-xl font-extrabold">Enseignants par UE</h2>
                 <button
                     onClick={handleDownloadPdf}
-                    disabled={generating || grouped.length === 0}
-                    className="bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold rounded-full px-6 py-2.5 text-sm transition-colors"
+                    disabled={generating || displayedGroups.length === 0}
+                    className="bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold rounded-full px-6 py-2.5 text-sm transition-colors whitespace-nowrap"
                 >
                     {generating ? 'Generation...' : 'Telecharger le rapport PDF'}
                 </button>
             </div>
 
+            <div className="mb-6 max-w-sm">
+                <label className="block font-bold text-sm mb-2">Rechercher une UE</label>
+                <input
+                    type="text"
+                    value={searchText}
+                    onChange={function (e) { setSearchText(e.target.value) }}
+                    placeholder="Ex: Programmation Web, Anatomie..."
+                    className="w-full border border-neutral-200 rounded-xl px-4 py-3 text-base focus:outline-none focus:border-blue-600"
+                />
+            </div>
+
             {loading && <p className="text-neutral-500">Chargement...</p>}
             {error && <p className="text-red-600">{error}</p>}
 
-            {!loading && !error && grouped.map(function (domain) {
+            {!loading && !error && query && (
+                <p className="text-neutral-500 text-sm mb-4">{totalMatchingSubjects} UE trouvee(s) pour "{searchText}"</p>
+            )}
+
+            {!loading && !error && displayedGroups.length === 0 && query && (
+                <p className="text-neutral-500">Aucune UE ne correspond a votre recherche.</p>
+            )}
+
+            {!loading && !error && displayedGroups.map(function (domain) {
                 return (
                     <div key={domain.domainLabel} className="mb-8">
                         <h3 className="text-lg font-extrabold text-neutral-900 mb-3">{domain.domainLabel}</h3>
